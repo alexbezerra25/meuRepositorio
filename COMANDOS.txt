@@ -1,0 +1,6 @@
+git --version //Versão do git
+git config --global user.name "Alex Matheus" //registra o nome
+git config --global user.email "14alex25@gmail.com" //registra o email
+git config --global core.editor vscode //registra o editor de texto
+git config user.name //Lê o nome de usuário
+git config --list //lê todas as configurações
