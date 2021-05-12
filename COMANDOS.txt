@@ -4,3 +4,18 @@ git config --global user.email "14alex25@gmail.com" //registra o email
 git config --global core.editor vscode //registra o editor de texto
 git config user.name //Lê o nome de usuário
 git config --list //lê todas as configurações
+'------------------------------------------------
+git init //inicia no repositório
+git add // adiciona arquivos a branch -> [git add -A] ou [git add .]
+git commit -m ""//envia modificações ao git [git commit -m "aqui vai a descrição"]
+git commit -am ""// adiciona os arquivos a branch e faz o commit 
+git status //verifica modificações e novos arquivos
+git log //exibe as branchs
+git branch //mostra a branch atual
+git reset -soft//vai voltar para o estado de preparação antes do commit anterior
+git reset -mixed//antes do add
+git reset -hard//ignorar tudo que ja existiu no commit anterior
+
+
+'branch = versões diferentes do sistema
+'master é a breanch principal
