@@ -15,7 +15,13 @@ git branch //mostra a branch atual
 git reset -soft//vai voltar para o estado de preparação antes do commit anterior
 git reset -mixed//antes do add
 git reset -hard//ignorar tudo que ja existiu no commit anterior
+git branch novaBranch //acidiona uma branch com o nome que você inserir sem aspas
+git checkout nomeBranch //muda de branch
+git branch -D nomeBranch //deleta a branch
+git diff //detalha as modificações que foram realizadas nos arquivos.
+git diff --name-only //exibe o nome dos arquivos que foram modificados.
+git diff nomeArquivo //detalha as modificações do arquivo
 
-
-'branch = versões diferentes do sistema
-'master é a breanch principal
+HEAD = branch atual
+git checkout HEAD -- arquivo // remove as alterações no arquivo selecionado
+ 
